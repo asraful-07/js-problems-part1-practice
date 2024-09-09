@@ -17,10 +17,10 @@ const lipi = isLeapYear(10);
 // maine logic
 function isLeapYear(year){
     if(year % 100 !==  0 && year % 4 ===0){
-        return true
+        return true;
     }
     else if(year % 100 === 0 && year % 400 === 0){
-        return true
+        return true;
     }
     else{
         return false;

@@ -2,7 +2,6 @@ function oddAverage(numbers){
     const odds = [];
     for(const number of numbers){
         if(number % 2 === 1){
-            // console.log(number)
         odds.push(number);  
         }
     }
@@ -12,7 +11,6 @@ function oddAverage(numbers){
        sum = sum + number;
     }
     const count = odds.length;
-    console.log(sum, count);
     const avg = sum / count;
     return avg;
 }

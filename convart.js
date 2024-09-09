@@ -3,8 +3,8 @@ function inchToFeet(inch){
     return feet;
 }
 
-// const inch = (75)
-// const shuvoHight = inchToFeet(inch);
+const inch = (75)
+const shuvoHight = inchToFeet(inch);
 // console.log(shuvoHight);
 
 
@@ -17,8 +17,8 @@ function inchToFeet2(inch){
     return result;
 }
 
-const shuvoHight = inchToFeet2(75);
-// console.log(shuvoHight)
+const shuvoHight2 = inchToFeet2(75);
+// console.log(shuvoHight2)
 
 // 2nd function 
 function milTokillo(mile){
